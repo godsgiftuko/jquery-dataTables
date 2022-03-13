@@ -6,7 +6,7 @@
 
 - [Bootstrap js@4.1.3](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js)
 
-* [Bootstrap css](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css)
+* [Bootstrap css@4.1.3](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css)
 
 * [Yidas reflow table js@1.0.0](https://raw.githubusercontent.com/yidas/jquery-reflow-table/master/dist/js/reflow-table.js)
 
