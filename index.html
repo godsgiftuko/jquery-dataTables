@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>yidas/jquery-reflow-table Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      class="js-site-favicon"
+      href="https://assets-cdn.github.com/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <!-- Custom styles for this template -->
+    <link href="./public/css/reflow-table.css" rel="stylesheet" />
+
+    <style>
+      /* Table Reflow Customized CSS for pseudo heads */
+      .reflow-table-customized-style td:before {
+        min-width: 160px !important;
+        text-transform: uppercase;
+      }
+      table {
+        font-size: 10pt;
+      }
+
+      @media screen and (min-width: 425px) {
+        .table-container {
+          padding: 0 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="mt-4">
+      <div class="table-container">
+        <table class="table table-bordered table-hover">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>City</th>
+              <th>Witnesses</th>
+              <th>24/h Reward</th>
+              <th>Transmit Scale</th>
+              <th>Height</th>
+              <th>dBi</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>silly-chrome-kitten</td>
+              <td>Arnhem</td>
+              <td>18</td>
+              <td>$2.58</td>
+              <td>0.5747070312500000</td>
+              <td>15</td>
+              <td>100</td>
+              <td>11k8am4ucTRY9MhhBH2eLpQ2qZ55bEPZUBdAYchtuFYAnumLyyU</td>
+            </tr>
+            <tr>
+              <td>silly-chrome-kitten</td>
+              <td>Arnhem</td>
+              <td>18</td>
+              <td>$2.58</td>
+              <td>0.5747070312500000</td>
+              <td>15</td>
+              <td>100</td>
+              <td>11k8am4ucTRY9MhhBH2eLpQ2qZ55bEPZUBdAYchtuFYAnumLyyU</td>
+            </tr>
+            <tr>
+              <td>silly-chrome-kitten</td>
+              <td>Arnhem</td>
+              <td>18</td>
+              <td>$2.58</td>
+              <td>0.5747070312500000</td>
+              <td>15</td>
+              <td>100</td>
+              <td>11k8am4ucTRY9MhhBH2eLpQ2qZ55bEPZUBdAYchtuFYAnumLyyU</td>
+            </tr>
+            <tr>
+              <td>silly-chrome-kitten</td>
+              <td>Arnhem</td>
+              <td>18</td>
+              <td>$2.58</td>
+              <td>0.5747070312500000</td>
+              <td>15</td>
+              <td>100</td>
+              <td>11k8am4ucTRY9MhhBH2eLpQ2qZ55bEPZUBdAYchtuFYAnumLyyU</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./public/js/reflow-table.js"></script>
+    <script>
+      $(function () {
+        $(".table").reflowTable();
+      });
+    </script>
+  </body>
+</html>
