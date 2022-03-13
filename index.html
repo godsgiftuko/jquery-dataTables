@@ -17,6 +17,12 @@
     />
     <!-- Custom styles for this template -->
     <link href="./public/css/reflow-table.css" rel="stylesheet" />
+    <!-- DataTables -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.css"
+    />
 
     <style>
       /* Table Reflow Customized CSS for pseudo heads */
@@ -76,7 +82,7 @@
             <tr>
               <td>silly-chrome-kitten</td>
               <td>Arnhem</td>
-              <td>18</td>
+              <td>140</td>
               <td>$2.58</td>
               <td>0.5747070312500000</td>
               <td>15</td>
@@ -86,7 +92,7 @@
             <tr>
               <td>silly-chrome-kitten</td>
               <td>Arnhem</td>
-              <td>18</td>
+              <td>1</td>
               <td>$2.58</td>
               <td>0.5747070312500000</td>
               <td>15</td>
@@ -101,9 +107,23 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="./public/js/reflow-table.js"></script>
+    <!-- DataTables -->
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.js"
+    ></script>
     <script>
       $(function () {
+        var datatables = $(".table").DataTable({
+          "order": [[ 2, "asc" ]],
+          drawCallback: function (settings) {
+            // Bind a draw callback to re-build row th title for Reflow Table after
+            $(".table").reflowTable("update");
+          }
+        });
+        // Initialize Reflow Table (Before or after DataTables are both accepted)
         $(".table").reflowTable();
+
       });
     </script>
   </body>
