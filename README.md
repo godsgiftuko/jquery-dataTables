@@ -2,12 +2,12 @@
 
 ### Libraries
 
-- JQuery@2.2.4 - [https://code.jquery.com/jquery-2.2.4.js]
+- [JQuery@2.2.4](https://code.jquery.com/jquery-2.2.4.js)
 
-- Bootstrap@4.1.3 - [https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js]
+- [Bootstrap@4.1.3](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js)
 
-* BootstrapCss - [https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css]
+* [BootstrapCss](https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css)
 
-* YidasReflowTableJs@1.0.0 - []
+* [YidasReflowTableJs@1.0.0](https://raw.githubusercontent.com/yidas/jquery-reflow-table/master/dist/js/reflow-table.js)
 
-* YidasReflowTableCss@1.0.3 - []
+* [YidasReflowTableCss@1.0.3](https://raw.githubusercontent.com/yidas/jquery-reflow-table/master/dist/css/reflow-table.css)
