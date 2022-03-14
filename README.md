@@ -1,6 +1,6 @@
 # JQuery Data Table
 
-![JQuery Data Table](https://www.google.com/url?sa=i&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F57620626%2Fbootstrap-table-template-not-match&psig=AOvVaw2XwLXxZ5Zv9kjHsU8u4_gS&ust=1647306115758000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCPjtndOzxPYCFQAAAAAdAAAAABAO "JQuery Data Table")
+![JQuery Data Table](/public/imgs/datatable-snapshot.png "JQuery Data Table")
 
 ### Libraries
 
