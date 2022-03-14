@@ -15,3 +15,7 @@
 * [Data table js@1.10.18](https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.js)
 
 * [Data table css@1.10.18](https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.css)
+
+> Visit demo
+>
+> [JQuery Data Table](https://portfolio-table.netlify.app)
