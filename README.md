@@ -20,4 +20,4 @@
 
 > Visit demo
 >
-> [jquery-data-table](https://gu-bootstrap-table.netlify.app/)
+> [https://jquery-data-table.com](https://gu-bootstrap-table.netlify.app/)
